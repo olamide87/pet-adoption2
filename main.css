@@ -1,4 +1,158 @@
 body {
-  background-color: aqua;
+  background-color: #8cb369;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  margin: 0;
+  padding: 0;
+  position: relative;
 
 }
+
+
+
+#print-cards-here {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.pet-card {
+  border: 2px solid #ffd07b;
+  border-radius: 1%;
+  width: 30%;
+  margin: 10px;
+  padding: 0;
+  text-align: center;
+  position: relative;
+}
+
+.pet-card img {
+  width: 70%;
+  border: 1px solid #ffd07b;
+  border-radius: 1%;
+  padding: 3%;
+  margin-top: 18%;
+}
+
+#pet-card-container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  margin: 0 10%;
+}
+
+.button-container {
+  display: flex;
+  justify-content: space-around;
+  margin: 25px 25%;
+}
+
+.buttons {
+  font-size: 18px;
+  color: #0496ff;
+  border: none;
+  border-radius: 10%;
+  height: 45px;
+  width: 85px;
+  border-color: black;
+}
+
+
+.buttons:hover {
+  box-shadow: 5px 5px 20px rgba(167, 164, 164, 0.973);
+}
+
+#cat {
+    background-color: lightblue;
+}
+
+#dog {
+    background-color: rgb(126, 182, 126);
+}
+
+#dino {
+    background-color: rgb(219, 82, 82);
+}
+
+#all {
+    background-color: rgb(82, 40, 131);
+}
+
+#pet-card-container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  margin: 0 10%;
+}
+
+.pet-card {
+  border: 2px solid black;
+  border-radius: 1%;
+  width: 30%;
+  margin: 10px;
+  padding: 0;
+  text-align: center;
+  position: relative;
+  border-radius: 10px;
+}
+
+.pet-card h2 {
+  background-color: lightgrey;
+  color: rgb(92, 92, 92);
+  position: absolute;
+  width: 100%;
+  top: 0px;
+  margin-top: auto;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.pet-card p {
+  font-size: 20px;
+}
+
+.pet-card img {
+  width: 70%;
+  border: 1px solid lightgrey;
+  border-radius: 1%;
+  padding: 3%;
+  margin-top: 18%;
+}
+
+.pet-card-color {
+  margin: 5px auto;
+}
+
+.pet-special-skill {
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 40px;
+}
+
+
+.pet-type-cat {
+  background-color: lightblue;
+  color: rgb(5, 125, 165);
+}
+
+.pet-type-dog {
+  background-color: rgb(126, 182, 126);
+  color: rgb(9, 114, 9);
+}
+
+.pet-type-dino {
+  background-color: rgb(219, 82, 82);
+  color: rgb(126, 8, 8);
+}
+
+.pet-type-cat, .pet-type-dog, .pet-type-dino {
+  margin-bottom: auto;
+  border-radius: 3%;
+  text-transform: capitalize;
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+
